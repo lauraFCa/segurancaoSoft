@@ -10,6 +10,9 @@ package vendas;
  * @author hugov
  */
 public class Vendas {
+    
+    public static String ConnectionString = "Server=myServerName,myPortNumber;Database=myDataBase;User Id=myUsername;Password=myPassword;";
+    
     public static String LISTAR = "SELECT * FROM vendas ORDER BY data_ven";
     
     public static String REGISTRAR = "INSERT INTO vendas(numero_ven, total_ven, data_ven) "
