@@ -1,0 +1,27 @@
+
+{ 
+
+  "created_roles": { 
+
+    "ConjurDemo:user:ZipcodeAdmin@ZipcodeMicroservice": { 
+
+      "id": "ConjurDemo:user:ZipcodeAdmin@ZipcodeMicroservice", 
+
+      "api_key": "2zg9cy53h2q3smh4bded1z08ea1191912011mza4etpzna13kyq80p" 
+
+    }, 
+
+    "ConjurDemo:host:ZipcodeMicroservice/ZipcodeApp": { 
+
+      "id": "ConjurDemo:host:ZipcodeMicroservice/ZipcodeApp", 
+
+      "api_key": "166szy87a1xwp3xsnfzw1esfazs10z6w0x2ypcmkz3ztqpe62sv4akn" 
+
+    } 
+
+  }, 
+
+  "version": 1 ,
+  "database": "Data Source=190.190.200.100,1433;Network Library=DBMSSOCN;Initial Catalog=myDataBase;User ID=myUsername;Password=myPassword;"
+
+}
