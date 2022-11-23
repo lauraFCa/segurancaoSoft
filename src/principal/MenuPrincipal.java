@@ -1,10 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package principal;
-
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -15,22 +9,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JInternalFrame;
 import javax.swing.JOptionPane;
 import javax.swing.Timer;
-
 import produtos.FrmProdutos;
 import usuarios.FrmUsuarios;
 import vendas.FrmCaixa;
 import vendas.FrmVendas;
 
-/**
- *
- * @author hugov
- */
-public class MenuPrincipal extends javax.swing.JFrame {
-    
-    
-    
-   
-    
+
+public class MenuPrincipal extends javax.swing.JFrame {    
     public boolean estaFechado(Object obj){
         JInternalFrame[] ativo = carregador.getAllFrames();
         boolean fechado = true;
@@ -38,19 +23,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
         while(i < ativo.length && fechado){
             if(ativo[i] == obj){
                 fechado = false;
-                
             }
-            
             i++;
         }
-        
         return fechado;
     }
     
-    
-    
     class horas implements ActionListener {
-
         public void actionPerformed(ActionEvent e) {
             Date sistemaHora = new Date();
             String pmAm = "HH:mm:ss";
@@ -60,8 +39,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         }
     }
     
-    
-
     /**
      * Creates new form MenuPrincipal
      */
@@ -77,7 +54,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
         painelPrincipal = new javax.swing.JPanel();
         painelCabecalho = new javax.swing.JPanel();
         hora = new javax.swing.JLabel();
@@ -278,7 +254,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_btnProdutoActionPerformed
-
     
     usuarios.FrmUsuarios tela1;
     private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
